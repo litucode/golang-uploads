@@ -1,0 +1,4 @@
+package: gitlab.com/viajeros-modernos/vm-uploads-media
+import:
+- package: github.com/gorilla/mux
+  version: ^1.3.0
