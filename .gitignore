@@ -18,3 +18,4 @@ vendor/
 # Folder to upload files
 uploads/
 /config.yaml
+/files/
