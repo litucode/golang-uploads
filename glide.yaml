@@ -7,3 +7,10 @@ import:
 - package: github.com/olebedev/config
 - package: gopkg.in/yaml.v2
 - package: gopkg.in/mgo.v2
+- package: github.com/aws/aws-sdk-go
+  version: v1.7.3
+  subpackages:
+  - service/s3
+  - aws/awsutil
+  - aws/credentials
+  - aws/session

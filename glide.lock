@@ -1,6 +1,15 @@
-hash: 08032d0101f40a3ecf1eff7f62b181ff91c8849289eda4362859d5c0a0b6bcea
-updated: 2017-03-04T06:52:56.9902142-03:00
+hash: 0d05daa4b342bdd805962d4186bd44be9caebccb67ac3e4b8d1f37d5793245db
+updated: 2017-03-06T05:06:42.1764144-03:00
 imports:
+- name: github.com/aws/aws-sdk-go
+  version: 6669bce73b4e3bc922ff5ea3a3983ede26e02b39
+  subpackages:
+  - aws/awsutil
+  - aws/credentials
+  - aws/session
+  - service/s3
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
 - name: github.com/gorilla/mux
   version: 392c28fe23e1c45ddba891b0320b3b5df220beea
 - name: github.com/koyachi/go-nude
@@ -9,6 +18,11 @@ imports:
   version: afea898d27c7d17376ecc60c7c2e73c76b40060e
 - name: gopkg.in/mgo.v2
   version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
 - name: gopkg.in/yaml.v2
   version: a3f3340b5840cee44f372bddb5880fcbc419b46a
 testImports: []
